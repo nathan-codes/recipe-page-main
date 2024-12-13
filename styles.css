@@ -1,0 +1,181 @@
+/* CSS RESET START*/
+
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/*
+  9. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* CSS RESET END*/
+
+body {
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 10%, 34%);
+}
+
+.header_img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 110%;
+}
+
+main {
+  padding: 25px;
+}
+
+.prep_header {
+  color: hsl(332, 51%, 32%);
+  font-size: 16px;
+}
+
+.desc_section {
+  background-color: hsl(330, 100%, 98%);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.description {
+  font-size: 14px;
+  margin: 14px 0px;
+  font-size: 14px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.section {
+  margin: 30px 0px;
+}
+.listings {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px 0px;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+  font-weight: 400;
+  font-family: "Young Serif", serif;
+}
+
+@media screen and (min-width: 789px) {
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+  br {
+    display: none;
+  }
+
+  .header_img {
+    margin: 0 auto;
+    
+    max-width: 960px;
+    border-radius: 20px;
+    margin-top: 20px;
+
+  }
+
+}
+
+.cal-maingroup {
+  padding: 20px;
+
+}
+
+.cal-group {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  
+}
+
+.large {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+.cal-group span {
+  width: 50%;
+}
+
+.listings li {
+  color: hsl(30, 10%, 34%);
+}
+@media screen and (min-wax: 375px) {
+}
